@@ -3,7 +3,12 @@ use csv::Error;
 extern crate chrono;
 //use chrono::{DateTime, NaiveDate, NaiveDateTime, NaiveTime};
 use chrono::format::ParseError;
-fn main() -> Result<(), Error> {
+
+
+// Rust's error handling revolves around returning Result<T, E> and using ? to propagate errors. 
+ fn main() -> Result<(), Error> {
+	 // https://doc.rust-lang.org/edition-guide/rust-2018/error-handling-and-panics/question-mark-in-main-and-tests.html
+//fn main()  {
     let csv = "year,make,model,description
 1948,Porsche,356,Luxury sports
 1967,Ford,Mustang fastback 1967,American
