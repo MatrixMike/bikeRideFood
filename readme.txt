@@ -9,7 +9,7 @@ Getting them to compile online is easy but ATM getting them to build offline is 
 To use :
 <ol>
 <li>clone
-</li><li>cargo build
+</li><li>cargo build --verbose
 </li><li>cargo run
 </li>
 </ol>
