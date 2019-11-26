@@ -6,4 +6,12 @@ The aim is to produce a program that reads csv bank details and produces a list 
 rust cookbook examples are available
 Getting them to compile online is easy but ATM getting them to build offline is not 100% successful, compilation is OK but execution is not -> the compiled file appears to be hidden somewhere...
 
+To use :
+<ol>
+<li>clone
+</li><li>cargo build
+</li><li>cargo run
+</li>
+</ol>
+
 
