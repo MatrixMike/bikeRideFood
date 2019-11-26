@@ -1,5 +1,5 @@
 [package]
-name = "TuesdaySpending"
+name = "tuesday_spending"
 version = "0.1.0"
 authors = ["Mike J H <matrixmike@icloud.com>"]
 edition = "2018"
